@@ -1,4 +1,4 @@
-Mini Sistema de Cadastro
+Sistema de Cadastro
 
 Esse projeto foi criado em HTML, CSS e JavaScript com o propósito de praticar programação.
 
