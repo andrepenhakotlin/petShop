@@ -50,14 +50,14 @@ h1{
   font-size: 40px;
   font-weight: 700;
   line-height: 40px;
-  text-align: left;
-  margin-right: 590px;
+  text-align: center;
+  margin-left: 100px;
   margin-bottom: 20px;
 
 }
 
 
-.benvindo {
+.benvindo h1{
   text-align: center;
 }
 
@@ -73,6 +73,13 @@ h2{
   margin: 16px 140px 0px 140px;  
   min-height: 100vh;
 }
+
+.logo img {
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+
 
 /* Header com logo e nav 
 ========================*/
@@ -96,7 +103,9 @@ header nav,
 }
 
 header .logo img{
-  width: 240px;
+  width: 40px;
+  margin-bottom: 15px;
+
 }
 
 nav ul {
@@ -106,7 +115,6 @@ nav ul {
   display: flex;
   justify-content: center; /* Centraliza os itens */
   gap: 15px; /* Espaço entre os itens */
-  background-color: #f2f2f2; /* Opcional */
 }
 
 nav ul li a {
@@ -114,8 +122,16 @@ nav ul li a {
   color: #333;
   padding: 10px 15px;
   display: block;
+  text-align: left;
 }
 
+.login {
+  margin-left: 400px
+}
+
+.carrinho {
+  margin-left: 200px;
+ }
 
 
 /* Conteúdo principal 
@@ -171,16 +187,16 @@ nav ul li a {
 ===================================*/
 .links div{
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .links i{
   font-size: 20px;
-  margin-right: 8px;
+  margin-left: -300px;
 }
 
 .links a{
-  margin-right: 30px;
+  margin-right: -150px;
   color: #2F1242;
   text-decoration: none;
 }
